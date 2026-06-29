@@ -7,58 +7,58 @@ digraph RFMTree {
   legend [shape=plaintext, label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="6" CELLPADDING="2"><TR><TD BGCOLOR="#4F46E5" WIDTH="16"></TD><TD><FONT POINT-SIZE="10" COLOR="#1E293B">핵심 그룹</FONT></TD><TD WIDTH="12"></TD><TD BGCOLOR="#E2E8F0" WIDTH="16"></TD><TD><FONT POINT-SIZE="10" COLOR="#1E293B">비핵심 그룹</FONT></TD></TR></TABLE>>];
   "c1" [shape=diamond, style=filled, fillcolor="#CCFBF1", color="#14B8A6", penwidth=1.4, fontcolor="#0F766E", fontsize=11, label="R&gt;3 &amp; F&gt;3
 &amp; M&gt;3"];
-  "L1" [shape=box, style="rounded,filled", fillcolor="#4F46E5", color="#3730A3", penwidth=1.2, fontcolor="white", margin="0.16,0.10", label=<<FONT POINT-SIZE="13"><B>Loyal Champion</B></FONT><BR/><FONT POINT-SIZE="9" COLOR="#C7D2FE">충성 우수 고객</FONT>>];
+  "L1" [shape=box, style="rounded,filled", fillcolor="#4F46E5", color="#3730A3", penwidth=1.2, fontcolor="white", margin="0.18,0.14", label=<<FONT POINT-SIZE="13"><B>Loyal Champion</B></FONT><BR/><FONT POINT-SIZE="5"> </FONT><BR/><FONT POINT-SIZE="9" COLOR="#C7D2FE">충성 우수 고객</FONT>>];
   "c2" [shape=diamond, style=filled, fillcolor="#CCFBF1", color="#14B8A6", penwidth=1.4, fontcolor="#0F766E", fontsize=11, label="R&lt;3 &amp; F≥3
 &amp; M≥3"];
-  "L2" [shape=box, style="rounded,filled", fillcolor="#4F46E5", color="#3730A3", penwidth=1.2, fontcolor="white", margin="0.16,0.10", label=<<FONT POINT-SIZE="13"><B>Potential Loyalist</B></FONT><BR/><FONT POINT-SIZE="9" COLOR="#C7D2FE">충성 전환 유망</FONT>>];
+  "L2" [shape=box, style="rounded,filled", fillcolor="#4F46E5", color="#3730A3", penwidth=1.2, fontcolor="white", margin="0.18,0.14", label=<<FONT POINT-SIZE="13"><B>Potential Loyalist</B></FONT><BR/><FONT POINT-SIZE="5"> </FONT><BR/><FONT POINT-SIZE="9" COLOR="#C7D2FE">충성 전환 유망</FONT>>];
   "c3" [shape=diamond, style=filled, fillcolor="#CCFBF1", color="#14B8A6", penwidth=1.4, fontcolor="#0F766E", fontsize=11, label="R&gt;3 &amp; M≥3"];
-  "L3" [shape=box, style="rounded,filled", fillcolor="#4F46E5", color="#3730A3", penwidth=1.2, fontcolor="white", margin="0.16,0.10", label=<<FONT POINT-SIZE="13"><B>Promising Newcomer</B></FONT><BR/><FONT POINT-SIZE="9" COLOR="#C7D2FE">유망 신규 고객</FONT>>];
+  "L3" [shape=box, style="rounded,filled", fillcolor="#4F46E5", color="#3730A3", penwidth=1.2, fontcolor="white", margin="0.18,0.14", label=<<FONT POINT-SIZE="13"><B>Promising Newcomer</B></FONT><BR/><FONT POINT-SIZE="5"> </FONT><BR/><FONT POINT-SIZE="9" COLOR="#C7D2FE">유망 신규 고객</FONT>>];
   "c4" [shape=diamond, style=filled, fillcolor="#CCFBF1", color="#14B8A6", penwidth=1.4, fontcolor="#0F766E", fontsize=11, label="F&gt;3 &amp; M≤3"];
-  "L4" [shape=box, style="rounded,filled", fillcolor="#4F46E5", color="#3730A3", penwidth=1.2, fontcolor="white", margin="0.16,0.10", label=<<FONT POINT-SIZE="13"><B>Bargain Lover</B></FONT><BR/><FONT POINT-SIZE="9" COLOR="#C7D2FE">실속형 고객</FONT>>];
+  "L4" [shape=box, style="rounded,filled", fillcolor="#4F46E5", color="#3730A3", penwidth=1.2, fontcolor="white", margin="0.18,0.14", label=<<FONT POINT-SIZE="13"><B>Bargain Lover</B></FONT><BR/><FONT POINT-SIZE="5"> </FONT><BR/><FONT POINT-SIZE="9" COLOR="#C7D2FE">실속형 고객</FONT>>];
   "c5" [shape=diamond, style=filled, fillcolor="#CCFBF1", color="#14B8A6", penwidth=1.4, fontcolor="#0F766E", fontsize=11, label="R&gt;3"];
-  "L5" [shape=box, style="rounded,filled", fillcolor="#E2E8F0", color="#CBD5E1", penwidth=1.2, fontcolor="#1E293B", margin="0.16,0.10", label=<<FONT POINT-SIZE="13"><B>New Customer</B></FONT><BR/><FONT POINT-SIZE="9" COLOR="#64748B">신규 고객</FONT>>];
+  "L5" [shape=box, style="rounded,filled", fillcolor="#E2E8F0", color="#CBD5E1", penwidth=1.2, fontcolor="#1E293B", margin="0.18,0.14", label=<<FONT POINT-SIZE="13"><B>New Customer</B></FONT><BR/><FONT POINT-SIZE="5"> </FONT><BR/><FONT POINT-SIZE="9" COLOR="#64748B">신규 고객</FONT>>];
   "c6" [shape=diamond, style=filled, fillcolor="#CCFBF1", color="#14B8A6", penwidth=1.4, fontcolor="#0F766E", fontsize=11, label="M&gt;3"];
-  "L6" [shape=box, style="rounded,filled", fillcolor="#E2E8F0", color="#CBD5E1", penwidth=1.2, fontcolor="#1E293B", margin="0.16,0.10", label=<<FONT POINT-SIZE="13"><B>Sleeping Value Customer</B></FONT><BR/><FONT POINT-SIZE="9" COLOR="#64748B">휴면 우량 고객</FONT>>];
+  "L6" [shape=box, style="rounded,filled", fillcolor="#E2E8F0", color="#CBD5E1", penwidth=1.2, fontcolor="#1E293B", margin="0.18,0.14", label=<<FONT POINT-SIZE="13"><B>Sleeping Value Customer</B></FONT><BR/><FONT POINT-SIZE="5"> </FONT><BR/><FONT POINT-SIZE="9" COLOR="#64748B">휴면 우량 고객</FONT>>];
   "c7" [shape=diamond, style=filled, fillcolor="#CCFBF1", color="#14B8A6", penwidth=1.4, fontcolor="#0F766E", fontsize=11, label="R&lt;3 &amp; F&lt;3
 &amp; M&lt;3"];
-  "L7" [shape=box, style="rounded,filled", fillcolor="#E2E8F0", color="#CBD5E1", penwidth=1.2, fontcolor="#1E293B", margin="0.16,0.10", label=<<FONT POINT-SIZE="13"><B>Need Attention</B></FONT><BR/><FONT POINT-SIZE="9" COLOR="#64748B">관리 필요 고객</FONT>>];
+  "L7" [shape=box, style="rounded,filled", fillcolor="#E2E8F0", color="#CBD5E1", penwidth=1.2, fontcolor="#1E293B", margin="0.18,0.14", label=<<FONT POINT-SIZE="13"><B>Need Attention</B></FONT><BR/><FONT POINT-SIZE="5"> </FONT><BR/><FONT POINT-SIZE="9" COLOR="#64748B">관리 필요 고객</FONT>>];
   "c8" [shape=diamond, style=filled, fillcolor="#CCFBF1", color="#14B8A6", penwidth=1.4, fontcolor="#0F766E", fontsize=11, label="R&lt;3"];
-  "L8" [shape=box, style="rounded,filled", fillcolor="#E2E8F0", color="#CBD5E1", penwidth=1.2, fontcolor="#1E293B", margin="0.16,0.10", label=<<FONT POINT-SIZE="13"><B>Inactive Customer</B></FONT><BR/><FONT POINT-SIZE="9" COLOR="#64748B">비활성 고객</FONT>>];
+  "L8" [shape=box, style="rounded,filled", fillcolor="#E2E8F0", color="#CBD5E1", penwidth=1.2, fontcolor="#1E293B", margin="0.18,0.14", label=<<FONT POINT-SIZE="13"><B>Inactive Customer</B></FONT><BR/><FONT POINT-SIZE="5"> </FONT><BR/><FONT POINT-SIZE="9" COLOR="#64748B">비활성 고객</FONT>>];
   "c9" [shape=diamond, style=filled, fillcolor="#CCFBF1", color="#14B8A6", penwidth=1.4, fontcolor="#0F766E", fontsize=11, label="F&lt;3"];
-  "L9" [shape=box, style="rounded,filled", fillcolor="#E2E8F0", color="#CBD5E1", penwidth=1.2, fontcolor="#1E293B", margin="0.16,0.10", label=<<FONT POINT-SIZE="13"><B>Infrequent Shoppers</B></FONT><BR/><FONT POINT-SIZE="9" COLOR="#64748B">저빈도 고객</FONT>>];
+  "L9" [shape=box, style="rounded,filled", fillcolor="#E2E8F0", color="#CBD5E1", penwidth=1.2, fontcolor="#1E293B", margin="0.18,0.14", label=<<FONT POINT-SIZE="13"><B>Infrequent Shoppers</B></FONT><BR/><FONT POINT-SIZE="5"> </FONT><BR/><FONT POINT-SIZE="9" COLOR="#64748B">저빈도 고객</FONT>>];
   "c10" [shape=diamond, style=filled, fillcolor="#CCFBF1", color="#14B8A6", penwidth=1.4, fontcolor="#0F766E", fontsize=11, label="M&lt;3"];
-  "L10" [shape=box, style="rounded,filled", fillcolor="#E2E8F0", color="#CBD5E1", penwidth=1.2, fontcolor="#1E293B", margin="0.16,0.10", label=<<FONT POINT-SIZE="13"><B>Low Spenders</B></FONT><BR/><FONT POINT-SIZE="9" COLOR="#64748B">소액 구매 고객</FONT>>];
-  "L11" [shape=box, style="rounded,filled", fillcolor="#E2E8F0", color="#CBD5E1", penwidth=1.2, fontcolor="#1E293B", margin="0.16,0.10", label=<<FONT POINT-SIZE="13"><B>Diverse Needs</B></FONT><BR/><FONT POINT-SIZE="9" COLOR="#64748B">기타 다양한 요구</FONT>>];
+  "L10" [shape=box, style="rounded,filled", fillcolor="#E2E8F0", color="#CBD5E1", penwidth=1.2, fontcolor="#1E293B", margin="0.18,0.14", label=<<FONT POINT-SIZE="13"><B>Low Spenders</B></FONT><BR/><FONT POINT-SIZE="5"> </FONT><BR/><FONT POINT-SIZE="9" COLOR="#64748B">소액 구매 고객</FONT>>];
+  "L11" [shape=box, style="rounded,filled", fillcolor="#E2E8F0", color="#CBD5E1", penwidth=1.2, fontcolor="#1E293B", margin="0.18,0.14", label=<<FONT POINT-SIZE="13"><B>Diverse Needs</B></FONT><BR/><FONT POINT-SIZE="5"> </FONT><BR/><FONT POINT-SIZE="9" COLOR="#64748B">기타 다양한 요구</FONT>>];
   title -> c1 [style=invis];
   {rank=same; title; legend;}
   "c1" -> "L1" [label="YES", color="#0D9488", fontcolor="#0F766E"];
   {rank=same; "c1"; "L1";}
-  "c1" -> "c2" [label="NO", color="#94A3B8", fontcolor="#64748B"];
+  "c1" -> "c2" [label="  NO  ", color="#94A3B8", fontcolor="#64748B"];
   "c2" -> "L2" [label="YES", color="#0D9488", fontcolor="#0F766E"];
   {rank=same; "c2"; "L2";}
-  "c2" -> "c3" [label="NO", color="#94A3B8", fontcolor="#64748B"];
+  "c2" -> "c3" [label="  NO  ", color="#94A3B8", fontcolor="#64748B"];
   "c3" -> "L3" [label="YES", color="#0D9488", fontcolor="#0F766E"];
   {rank=same; "c3"; "L3";}
-  "c3" -> "c4" [label="NO", color="#94A3B8", fontcolor="#64748B"];
+  "c3" -> "c4" [label="  NO  ", color="#94A3B8", fontcolor="#64748B"];
   "c4" -> "L4" [label="YES", color="#0D9488", fontcolor="#0F766E"];
   {rank=same; "c4"; "L4";}
-  "c4" -> "c5" [label="NO", color="#94A3B8", fontcolor="#64748B"];
+  "c4" -> "c5" [label="  NO  ", color="#94A3B8", fontcolor="#64748B"];
   "c5" -> "L5" [label="YES", color="#0D9488", fontcolor="#0F766E"];
   {rank=same; "c5"; "L5";}
-  "c5" -> "c6" [label="NO", color="#94A3B8", fontcolor="#64748B"];
+  "c5" -> "c6" [label="  NO  ", color="#94A3B8", fontcolor="#64748B"];
   "c6" -> "L6" [label="YES", color="#0D9488", fontcolor="#0F766E"];
   {rank=same; "c6"; "L6";}
-  "c6" -> "c7" [label="NO", color="#94A3B8", fontcolor="#64748B"];
+  "c6" -> "c7" [label="  NO  ", color="#94A3B8", fontcolor="#64748B"];
   "c7" -> "L7" [label="YES", color="#0D9488", fontcolor="#0F766E"];
   {rank=same; "c7"; "L7";}
-  "c7" -> "c8" [label="NO", color="#94A3B8", fontcolor="#64748B"];
+  "c7" -> "c8" [label="  NO  ", color="#94A3B8", fontcolor="#64748B"];
   "c8" -> "L8" [label="YES", color="#0D9488", fontcolor="#0F766E"];
   {rank=same; "c8"; "L8";}
-  "c8" -> "c9" [label="NO", color="#94A3B8", fontcolor="#64748B"];
+  "c8" -> "c9" [label="  NO  ", color="#94A3B8", fontcolor="#64748B"];
   "c9" -> "L9" [label="YES", color="#0D9488", fontcolor="#0F766E"];
   {rank=same; "c9"; "L9";}
-  "c9" -> "c10" [label="NO", color="#94A3B8", fontcolor="#64748B"];
+  "c9" -> "c10" [label="  NO  ", color="#94A3B8", fontcolor="#64748B"];
   "c10" -> "L10" [label="YES", color="#0D9488", fontcolor="#0F766E"];
   {rank=same; "c10"; "L10";}
-  "c10" -> "L11" [label="else", color="#94A3B8", fontcolor="#64748B"];
+  "c10" -> "L11" [label="  else  ", color="#94A3B8", fontcolor="#64748B"];
 }

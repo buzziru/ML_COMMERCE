@@ -60,9 +60,10 @@ def leaf_node(nid, en, ko, core):
     sub  = INDIGO_SUB if core else SLATE_SUB
     bd   = INDIGO_DK if core else SLATE_BD
     lab = (f'<<FONT POINT-SIZE="13"><B>{en}</B></FONT>'
+           f'<BR/><FONT POINT-SIZE="5"> </FONT>'
            f'<BR/><FONT POINT-SIZE="9" COLOR="{sub}">{ko}</FONT>>')
     return (f'  "{nid}" [shape=box, style="rounded,filled", fillcolor="{fill}", '
-            f'color="{bd}", penwidth=1.2, fontcolor="{main}", margin="0.16,0.10", label={lab}];\n')
+            f'color="{bd}", penwidth=1.2, fontcolor="{main}", margin="0.18,0.14", label={lab}];\n')
 
 dot = []
 dot.append('digraph RFMTree {')
@@ -103,9 +104,9 @@ for i in range(1, len(STEPS) + 1):
     dot.append(f'  "{c}" -> "{L}" [label="YES", color="{TEAL}", fontcolor="{TEAL_DK}"];')
     dot.append(f'  {{rank=same; "{c}"; "{L}";}}')
     if i < len(STEPS):
-        dot.append(f'  "{c}" -> "c{i+1}" [label="NO", color="{SLATE_EDGE}", fontcolor="{SLATE_SUB}"];')
+        dot.append(f'  "{c}" -> "c{i+1}" [label="  NO  ", color="{SLATE_EDGE}", fontcolor="{SLATE_SUB}"];')
     else:
-        dot.append(f'  "{c}" -> "L11" [label="else", color="{SLATE_EDGE}", fontcolor="{SLATE_SUB}"];')
+        dot.append(f'  "{c}" -> "L11" [label="  else  ", color="{SLATE_EDGE}", fontcolor="{SLATE_SUB}"];')
 dot.append('}')
 render("\n".join(dot), "Decision_Tree_RFM")
 
